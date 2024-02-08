@@ -10,12 +10,13 @@ This project presents a semi-supervised approach for mining online user reviews 
 - Opinion summarization to generate comparative insights
 - Sentiment classification to discern overall user sentiment
 
-## Technologies
+## Key Techniques and Technologies
 
-- ASP.NET for the backend
-- Microsoft SQL Server for data management
-- SentiWordNet for sentiment analysis
-- Visual Studio as the development environment
+- **Web Scraping**: Automated scraping of product reviews from e-commerce websites.
+- **Natural Language Processing (NLP)**: Utilizes parts-of-speech (POS) tagging for preprocessing and analysis of the review text.
+- **Feature Extraction**: Identification of key product features from reviews using NLP techniques. The extraction process treats frequently occurring nouns and noun phrases as potential features, with associated adjectives indicating sentiment orientation.
+- **Opinion Summarization and Classification**: Uses SentiWordNet for sentiment analysis to classify the overall sentiment of reviews. The system generates feature-wise summaries and comparative insights among different products.
+- **Technologies**: Developed using ASP.NET, Microsoft SQL Server, and employs the C# programming language for backend operations.
 
 ## Setup and Installation
 
@@ -31,9 +32,18 @@ This project presents a semi-supervised approach for mining online user reviews 
    - Start the application by running `login.aspx` from Visual Studio.
 
 
-## Contributing
+## Contributors
 
-We welcome contributions to improve the project. Please fork the repository and submit a pull request for review.
+This project was developed by a dedicated team of students from the Department of Computer Engineering, Shah and Anchor Kutchhi Engineering College, under the guidance of Prof. Rupali Kale. The team members include:
+
+- Sanal Pillai
+- Sujith Nair
+- Apresh Pandit
+- Onkaar Sawant
+
+## Future Scope
+
+The project aims to extend its capabilities by incorporating more diverse datasets and improving the accuracy of sentiment analysis. Future developments will also explore fuzzy opinion classification to enhance the system's ability to understand and summarize user sentiments more effectively.
 
 ## License
 
